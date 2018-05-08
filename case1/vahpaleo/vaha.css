@@ -1,0 +1,863 @@
+/*This is the css for the Vah Paleo website created by - Jayashree Deshpande*/
+
+
+/* Importing Google Font */
+
+@import 'https://fonts.googleapis.com/css?family=Aref+Ruqaa';
+@import 'https://fonts.googleapis.com/css?family=BioRhyme';
+@import 'https://fonts.googleapis.com/css?family=Sacramento';
+
+/* for the border of the whole page*/
+
+* {
+	box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+	display: block;
+}
+
+
+/*for the main page top content*/
+
+body {
+	padding: auto;
+	margin: auto;
+	width: 80%;
+}
+
+
+/* this is a wrapper */
+
+#wrapper {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	opacity: 70%;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/* this represents logo of image for each page*/
+
+#logo {
+	padding-left: 1%;
+	font-family: 'Aref Ruqaa';
+	font-size: 2.5em;
+	float: left;
+	width: 30%;
+	color: white;
+	height: 70px;
+}
+
+
+/* this is for nav for ul*/
+
+nav>ul {
+	padding: 0px;
+	margin: 0px;
+	border-radius: .2em;
+}
+
+
+/*nav border for fixed position*/
+
+nav {
+	border-radius: .2em;
+}
+
+
+/* this is for the logo alinement*/
+
+.topNav {
+	float: left;
+	width:70%;
+	padding: 0px;
+	margin: 0px;
+	border-radius: .2em;
+}
+
+
+/*This is for the list to display in block style*/
+
+nav>ul>li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 3%;
+	padding-left: 0px;
+	padding-right: 10px;
+	margin: 0px 0px;
+	height: 70px;
+	border-radius: .2em;
+}
+
+
+/*this class for nav bar color for active list element*/
+
+.active {
+	background-color: white;
+}
+
+
+/*this id for nav ul bar color */
+
+nav>ul>li>a {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.active a {
+	color: black;
+}
+
+
+/*this id for nav hover bar color */
+
+nav>ul>li:hover {
+	background-color: gainsboro;
+}
+
+
+/*this div id for for main image of page */
+
+#banner {
+	float: left;
+	position: relative;
+	background-image: url("img/namaste.jpg");
+	width: 100%;
+	height: 1066.8px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/*this div id for for main image of page secound page */
+
+#culturebanner {
+	float: left;
+	position: relative;
+	background-image: url("img/culture.jpg");
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/*this div id for for main image of page third page */
+
+#recipesbanner {
+	float: left;
+	position: relative;
+	background-image: url("img/recipes.jpg");
+	width: 100%;
+	height: 1066.66px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/*this div id for for main image of page forth page */
+
+#contactbanner {
+	float: left;
+	position: relative;
+	background-image: url("img/Contact-Us.jpg");
+	width: 100%;
+	height: 950px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/*this div id for for main image of page fifth page */
+
+#remediesbanner {
+	float: left;
+	position: relative;
+	background-image: url("img/spice.jpg");
+	width: 100%;
+	height: 1063.83px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid;
+	border-radius: .2em;
+}
+
+
+/*this for all h1 and h2 heading of pages  */
+
+h1,
+h2 {
+	font-family: 'Aref Ruqaa';
+	margin: 0;
+	color: white;
+	position: absolute;
+	font-size: 4.5em;
+	top: 30%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+h2 {
+	top: 40%;
+	font-size: 3em;
+}
+
+h3 {
+	margin: auto;
+	padding: auto;
+	width: 50%;
+	font-family: 'Aref Ruqaa';
+	color: darkgreen;
+	font-size: 2.0em;
+}
+
+
+/*this div class for for main content of the  page */
+
+.culturecontent {
+	float: left;
+	padding: 10px 10px;
+	border: 1px solid;
+	width: 100%;
+	background-color: goldenrod;
+	color: white;
+	font-size: 1.5em;
+	border-radius: .2em;
+}
+
+
+/*this div id or for main content bottom of the  page */
+
+#bottomcontent {
+	float: left;
+	border: 1px solid;
+	width: 100%;
+	background-color: white;
+	border-radius: .2em;
+	margin: auto;
+	padding: auto;
+}
+
+
+/*this div id or for main content bottom  to aline images of the  page */
+
+#namasteculture,
+#namasteremedies {
+	margin-top: 3%;
+	margin-left: 7%;
+	float: left;
+	width: 39.70%;
+	height: 500px;
+}
+
+#namasterecipes,
+#namastecontact {
+	margin-top: 3%;
+	margin-left: 7%;
+	float: left;
+	width: 39.70%;
+	height: 500px;
+}
+
+
+/*this div id or for bottom image of first page culture banner  */
+
+#ncimg {
+	background-image: url(img/culture.jpg);
+	height: 332.09px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+}
+
+
+/*this div id or for bottom image of first page recipe banner  */
+
+#nrimg {
+	background-image: url(img/recipes.jpg);
+	height: 333.33px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+}
+
+
+/*this div id or for bottom image of first page spice banner  */
+
+#nremimg {
+	background-image: url(img/spice.jpg);
+	height: 332.45px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+}
+
+
+/*this div id or for bottom image of first page contact banner  */
+
+#ncoimg {
+	background-image: url(img/Contact-Us.jpg);
+	height: 296.875px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+}
+
+
+/*this div id or for  text of first page  banner  */
+
+#paleotext {
+	padding: auto;
+	margin: auto;
+	width: 80%;
+	font-family: 'Aref Ruqaa';
+	font-size: 1.5em;
+	color: black;
+}
+
+
+/*this div id or for  text of second  page  banner  */
+
+#rowtext {
+	width: 97%;
+	font-family: 'Aref Ruqaa';
+	font-size: 1.5em;
+	color: black;
+	text-align: justify;
+	margin: 2%;
+	padding: 1%;
+}
+
+
+/*this div id or for  text of remedies  page  banner  */
+
+#remedytext {
+	width: 94%;
+	font-family: 'Aref Ruqaa';
+	font-size: 1.5em;
+	color: black;
+	text-align: justify;
+	margin: 3% 3%;
+	padding: 1%;
+}
+
+
+/*this div id  for text of  page of  recipe   */
+
+#recipecontent {
+	margin: 3% 3%;
+	float: left;
+	width: 95%;
+}
+
+
+/*this div id  for text aline  to left  page of  recipe   */
+
+#rightcontent {
+	float: left;
+	width: 60%;
+	font-family: 'Aref Ruqaa';
+	margin-bottom: 1%;
+	padding: 1%;
+	font-size: 2em;
+	color: white;
+	text-align: justify;
+	border: 1px dotted;
+	border-radius: .2em;
+	background-image: url(img/holiday.jpg);
+	background-size: cover;
+}
+
+#contentrow {
+	clear: both;
+}
+
+
+/*this div id  for culture page for image of rice  */
+
+#riceimg {
+	float: left;
+	background-image: url(img/rice.jpg);
+	height: 281.25px;
+	width: 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 1em;
+}
+
+
+/*this div id  for culture page for image of roti  */
+
+#rotiimg {
+	float: left;
+	background-image: url(img/roti.jpg);
+	height: 333.59px;
+	width: 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 10px;
+	border-radius: 1em;
+}
+
+
+/*this div id  for recipe page for image of gobimusselum recipe */
+
+#recipe1 {
+	float: left;
+	background-image: url(img/gobi.jpg);
+	height: 206.04px;
+	width: 15%;
+	margin: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+	border: .5px solid;
+}
+
+
+/*this div id  for recipe page for image of fritata recipe */
+
+#recipe2 {
+	float: left;
+	background-image: url(img/fritata.png);
+	margin: 20px;
+	height: 150px;
+	width: 15%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+	border: .5px solid;
+}
+
+
+/*this div id  for remedy page for image of turmeric  */
+
+#remedy1 {
+	float: left;
+	background-image: url(img/turmeric.jpg);
+	height: 333.33px;
+	width: 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+	margin: 20px;
+}
+
+
+/*this div id  for remedy page for image of ginger  */
+
+#remedy2 {
+	float: left;
+	background-image: url(img/Ginger-Root-Benefits.jpg);
+	height: 333.125px;
+	width: 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1em;
+	margin: 20px;
+}
+
+
+/*this div id  for remedy page for you tube vedio  */
+
+iframe {
+	margin: 20px;
+	border-radius: 1em;
+}
+
+
+/*this div id  for recipe page for image of gobi recipe  */
+
+#gobiimg {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2%;
+	float: left;
+	height: 1153.8px;
+	width: 70%;
+	background-image: url(img/gobi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*this div id  for recipe page for image of fritata recipe  */
+
+#fritata {
+	float: left;
+	background-image: url(img/fritata.png);
+	width: 100%;
+	height: 480px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*this    for recipe page for table   */
+
+table {
+	width: 70%;
+	margin: auto;
+	padding: auto;
+	margin-top: 3%;
+	border: 1px solid;
+}
+
+
+/*this    for recipe page for table   */
+
+th {
+	font-size: 30px;
+	background-color: skyblue;
+	padding: 0 0;
+	border: 1px solid;
+}
+
+
+/*this   for recipe page for table*/
+
+td {
+	border: 1px solid;
+	font-size: 20px;
+}
+
+
+/*this div class for form on contact page*/
+
+.user-form {
+	padding: 20px;
+}
+
+
+/*this div class for form on contact page*/
+
+.user-form .field {
+	padding: 4px;
+	margin: 1px;
+}
+
+
+/*this div class for form on contact page*/
+
+.user-form .field label {
+	margin: auto;
+	padding: auto;
+	margin-left: 30%;
+	width: 20%;
+	font-size: 2em;
+	display: inline-block;
+	color: darkgreen;
+}
+
+
+/*this div class for form on contact page*/
+
+.user-form .field input {
+	border: .2px solid green;
+	display: inline-block;
+}
+
+textarea {
+	border: .2px solid green;
+}
+
+#mySubmit {
+	font-family: 'Aref Ruqaa';
+	margin: 0px;
+	padding: 0px;
+	margin-left: 30%;
+	width: 10%;
+	font-size: 1em;
+	display: inline-block;
+	background-color: cadetblue;
+	border: none;
+	border-radius: .2em;
+}
+
+#mySubmit:hover {
+	background-color: darkcyan;
+}
+
+
+/*this div class for social on contact page*/
+
+#social {
+	object-position: center;
+}
+
+img {
+	margin-left: 30%;
+}
+
+
+/*this is footer element on first page  */
+
+footer {
+	background-color: black;
+	width: 100%;
+	position: relative;
+	float: left;
+	height: 70px;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 1em;
+	padding-top: 2%;
+	border-radius: .2em;
+}
+
+
+/*this is footer div id  on first page  */
+
+#footer {
+	padding: 0px;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*this is footer div id
+on first page  */
+
+#footer>a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*this is css for tablet  */
+
+@media only screen and (max-width: 1024px) {
+	body {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	/*this is wrapperfor first page for tablet  */
+	#wrapper {
+		display: block;
+		width: 100%;
+		margin: 0;
+		min-width: 0;
+		box-shadow: none;
+		height: 420px;
+	}
+	/*this is top nav barfor first page for tablet  */
+	.topNav {
+		width: 100%;
+		height: 350px;
+	}
+	/*this is top nav bar logo for first page for tablet  */
+	#logo {
+		text-align: center;
+		font-size: 2.5em;
+		width: 100%;
+	}
+	/*this is top nav  for first page for tablet  */
+	nav {
+		display: block;
+		width: 100%;
+	}
+	/*this is top nav  for first page for tablet  */
+	nav>a {
+		text-align: center;
+		display: block;
+	}
+	/*this is top nav ul for first page for tablet  */
+	nav>ul>li {
+		text-align: center;
+		display: block;
+	}
+	/*this is image for first page for tablet  */
+	#banner {
+		height: 682.752px;
+	}
+	/*this div id for for main image of page secound page */
+	#culturebanner {
+		height: 680.12px;
+	}
+	/*this div id for for main image of page third page */
+	#recipesbanner {
+		height: 682px;
+	}
+	/*this div id for for main image of page forth page */
+	#contactbanner {
+		height: 682px;
+	}
+	/*this div id for for main image of page fifth page */
+	#remediesbanner {
+		height: 682px;
+	}
+	/*this is footer for first page for tablet  */
+	footer {
+		width: 100%;
+		font-size: .9em;
+	}
+	/*this is bottom content for first page for tablet  */
+	#bottomcontent {
+		width: 100%;
+	}
+	/*this for all h1 and h2 heading of pages  */
+	h1,
+	h2 {
+		font-size: 2.5em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1em;
+	}
+	/*this div class for form on contact page*/
+	.user-form .field label {
+		font-size: 1em;
+	}
+	/*this div id for form submit on contact page*/
+	#mySubmit {
+		font-size: 2em;
+		padding: 4px;
+		width: 35%;
+	}
+	#namasteculture,
+	#namasteremedies {
+		margin-top: 3%;
+		margin-left: 7%;
+		float: left;
+		width: 80%;
+		height: 500px;
+	}
+	#namasterecipes,
+	#namastecontact {
+		margin-top: 3%;
+		margin-left: 7%;
+		float: left;
+		width: 80%;
+		height: 500px;
+	}
+}
+
+
+/*this is css first page for iphone  */
+
+@media only all and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+	/*this is wrapper for page for ipnone */
+	#wrapper {
+		width: 100%;
+	}
+	/*this is top nav barfor first page for tablet  */
+	.topNav {
+		width: 100%;
+	}
+	#logo {
+		width: 100%;
+	}
+	/*this is top nav  for first page for tablet  */
+	nav {
+		width: 100%;
+	}
+	/*this is image for first page for tablet  */
+	#banner {
+		height: 512px;
+	}
+	/*this div id for for main image of page secound page */
+	#culturebanner {
+		height: 512px;
+	}
+	/*this div id for for main image of page third page */
+	#recipesbanner {
+		height: 512px;
+	}
+	/*this div id for for main image of page forth page */
+	#contactbanner {
+		height: 512px;
+	}
+	/*this div id for for main image of page fifth page */
+	#remediesbanner {
+		height: 512px;
+	}
+	/*this is footer for first page for tablet  */
+	footer {
+		width: 100%;
+		font-size: .7em;
+	}
+	/*this is bottom content for first page for tablet  */
+	#paleotext {
+		font-size: 1em;
+	}
+	/*this div id or for  text of second  page  banner  */
+	#rowtext {
+		font-size: 1em;
+	}
+	img {
+		margin-left: 10%;
+	}
+	#mySubmit {
+		font-size: 2em;
+		padding: 4px;
+		width: 60%;
+	}
+	/*this div id  for recipe page for image of gobimusselum recipe */
+	#recipe1 {
+		width: 90%;
+	}
+	/*this div id  for recipe page for image of fritata recipe */
+	#recipe2 {
+		width: 90%;
+	}
+	/*this for all h1 and h2 heading of pages  */
+	h1,
+	h2 {
+		font-size: 1em;
+	}
+	h2 {
+		font-size: .8em;
+	}
+	h3 {
+		font-size: .7em;
+	}
+	/*this div id  for culture page for image of rice  */
+	#riceimg {
+		height: 281.25px;
+		width: 95%;
+	}
+	/*this div id  for culture page for image of roti  */
+	#rotiimg {
+		height: 333.59px;
+		width: 95%;
+	}
+	/*this div id  for remedy page for image of turmeric  */
+	#remedy1 {
+		width: 90%;
+	}
+	/*this div id  for remedy page for image of ginger  */
+	#remedy2 {
+		width: 90%;
+	}
+	iframe {
+		width: 90%;
+	}
+}
